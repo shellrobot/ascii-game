@@ -16,11 +16,11 @@ class error(Exception):
     pass
 
 class gameRule:
-    speed = .125 # input cooldown (for slower machines)
+    speed = 0 # input cooldown (for slower machines)
     playerChar = "■" # Player char
     borderChar = "█" # Border char
     blockChar = "□" # Objective char
-    recursionLimit = 100000 # recursion limit
+    recursionLimit = 10000 # recursion limit
     clearScreen = True
     debug = False
 
